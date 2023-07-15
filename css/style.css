@@ -1,0 +1,70 @@
+.sidenav a{
+	text-decoration: none;
+	/*background-color: #8B008B;*/
+}
+
+
+.nav-wrapper > a {
+	text-decoration: none;
+	font-family: 'Pacifico', cursive;
+	background-color:#8B008B;
+	
+}
+div.nav-wrapper {
+	/*text-decoration: none;
+	font-family: 'Pacifico', cursive;*/
+	background-color:#8B008B;
+	
+}
+
+.nav-wrapper > a:hover {
+	color: white;
+
+}
+
+.page-footer{
+	background-color:#8B008B;
+}
+
+.hvr-grow {
+    text-decoration: none;
+    background-color:#8B008B;
+
+
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+	text-decoration: none;
+	color: white;
+}
+
+.slider .indicators .indicator-item.active{
+	background-color: #8B008B;/*#ee6e73*/ !important;
+}
+
+.carousel-item{
+  top: 50%;
+  width: 50%;
+
+}
+
+@media(max-width : 992px) {
+
+	.nav-wrapper > a:hover {
+		color: black;
+		
+	
+	}
+	
+}
+
+@media(min-width : 992px) {
+
+	.nav-wrapper > a {
+		padding-left: 35px;
+		
+	}
+	
+}

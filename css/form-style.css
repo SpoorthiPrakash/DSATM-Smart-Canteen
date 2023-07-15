@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body {
+  background:#DDA0DD;/*#EE82EE*//* #800080*//*#eedb6e*/ /* fallback for old browsers */
+  /* background: linear-gradient(to right, #9f89c5, #b89ee4); */
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+
+div.nav-wrapper {
+  /*text-decoration: none;
+  font-family: 'Pacifico', cursive;*/
+  background-color:#8B008B;
+  
+}
+
+.login-page {
+  /*background-color: white;*/
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+
+
+.input-field>input:focus{
+	border-bottom: 1px solid #800080 /*#ee6e73 */!important;
+	-webkit-box-shadow: 0 1px 0 0 #800080/*#F13791 */!important;
+	box-shadow: 0 1px 0 0 #800080/*#F13791 */!important; 
+  /*background-color: #8B008B;*/
+}
+
+.input-field>small{
+	font-size: 1.0rem;
+  color: #800080;
+}
+
+.input-field>span{
+  font-size: 1.5rem;
+  color: #800080;
+  float: left;
+}
+
+.btn, .btn:active, .btn:hover{
+
+  background:  #800080 !important;
+  width: 100%;
+
+}
+
+.error-msg{
+  background:  #800080;
+  color: aliceblue;
+  padding: 10px;
+}
+
+
+/*Dashboard CSS Starts!*/
+
+.left-sidebar {
+  height: 100vh;
+  background-color:#8B008B/*#4B0082/ /*#8B008B*/ ;
+}
+
+.row{
+  margin-bottom: 0 !important;
+  /*background-color: #8B008B;*/
+}
+
+.col {
+  padding: 0 !important;
+  /*background-color: #8B008B;*/
+}
+
+.heading-name{
+  padding-left: 25px;
+  font-style: bold;
+  color: white;
+  padding-top: 20px;
+}
+
+li.list-group-item a {
+  color: white;
+  background-color:black;
+}
+
+li.list-group-item {
+  margin-bottom: 15px;
+  cursor: pointer;
+  background-color:black;
+}
+
+li.list-group-item a:hover {
+  background-color: transparent;
+}
+
+.list-group-item:hover {
+  border-bottom: 2px solid white;
+  left: 0px;
+  -webkit-animation: slide 1s forwards;
+  -webkit-animation-delay: 2s;
+  animation: slide 1s forwards;
+  animation-delay: 2s;
+}
+
+.list-group-item {
+  background-color: black;
+  font-style: bold;
+  font-size: 25px;
+  padding: 10px;
+  color:#800080 /*#fff*/;
+}
+
+.nav.nav-sidebar.list-group {
+  margin-top: 40px;
+  /*#8B008B*/;
+}
+
+.maincontent{
+  margin-top: 45px;
+  padding: 20px 5px;
+  /*background-color: #8B008B;*/
+}
+
+
+
+@media(max-width : 992px) {
+
+  .left-sidebar {
+      display: none;
+      /*color:#800080*/;
+    }
+  
+}
+
